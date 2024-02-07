@@ -28,6 +28,11 @@ body {
     align-items: center;
 }
 
+/* .col-4 h1,
+.col-8 h1 {
+    font-family: 'Papyrus';
+} */
+
 .cardimage {
     height: 10rem;
 }
