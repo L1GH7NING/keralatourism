@@ -1,0 +1,116 @@
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));
+}
+
+.navbar-brand img {
+    min-width: 100px;
+    min-height: 50px;
+    border-radius: 0.5em;
+}
+
+.hero {
+    height: 0.5vh;
+}
+
+.mainpic {
+    border-radius: 1em;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.maintext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardimage {
+    height: 10rem;
+}
+
+.inner {
+    width: 25%;
+}
+
+.distimage {
+    border-radius: 0%;
+}
+
+.att {
+    border-radius: 5px;
+    height: 480px;
+    width: 720px;
+}
+
+.card-body p {
+    text-decoration: none;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cardimage2 {
+    height: 400px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.districtstop,
+.districtsbottom {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    /* padding: 14px 80px 18px 36px; */
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("./theyyam-face-traditional-makeup-art-from-kerala-india-wallpapers-ai-generated-photo.jpg");
+
+    /* Full height */
+    height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-inner .carousel-item img {
+    width: 640px;
+    height: 640px;
+}
